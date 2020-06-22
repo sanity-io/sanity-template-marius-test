@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "sanity-template-marius-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "scripts": {
+    "check": "sanity-template check",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sanity.io <hello@sanity.io>",
+  "license": "MIT"
+}
