@@ -1,5 +1,22 @@
 {
   "version": 2,
   "title": "Marius Test",
-  "description": "A test."
+  "description": "A test.",
+  "deployment": {
+    "provider": "vercel",
+    "studio": { "basePath": "/" },
+    "corsOrigins": [
+      {
+        "origin": "http://localhost:3000",
+        "allowCredentials": true
+      }
+    ]
+  },
+  "technologies": [
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "url": "https://vercel.com/"
+    }
+  ]
 }

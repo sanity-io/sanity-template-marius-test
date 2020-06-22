@@ -5,8 +5,10 @@
   "description": "",
   "main": "package.json",
   "scripts": {
+    "build": "sanity-template build --template-values values.json",
     "check": "sanity-template check",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sanity-template watch --template-values values.json"
   },
   "author": "Sanity.io <hello@sanity.io>",
   "license": "MIT"
